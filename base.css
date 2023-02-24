@@ -1,0 +1,96 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.heading{
+  padding: 1rem;
+}
+
+.input-text{
+  background-color: rgb(224, 224, 224);
+  border: none;
+  width: auto;
+  height:40px;
+  margin: 0px 16px;
+  padding: 0px 16px;
+}
+
+
+.input-text:focus{
+  outline: none;
+}
+
+.search{
+  border: none;
+  background-color:orangered;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.displayItems{
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.initialContent{
+  width:100%;
+  height: 70vh;
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.mealImg{
+  width: 250px;
+  padding: 24px;
+}
+
+
+.item{
+  width: 300px;
+  height: auto;
+  background-color: rgb(238, 238, 238);
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.item p{
+  width: 150px;
+  align-items: center;
+}
+
+.modals{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(152, 214, 255, 0.432);
+  position: absolute;
+  top: 0%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-content{
+  width: 75%;
+  height: 70vh;
+  background-color: white
+}
+
+.link, .link:hover{
+  color: white;
+  text-decoration: none;
+}
